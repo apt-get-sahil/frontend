@@ -1,0 +1,37 @@
+/* deal-slider.css */
+
+section {
+    background-color: none;
+    width: 100%;
+    box-shadow:none /* Define your preferred shadow properties */;
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 500; /* font-medium */
+  }
+  
+  .header a {
+    background-color: none/* bg-primary-blue */;
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem; /* text-xs */
+    font-weight: 500; /* font-medium */
+    padding: 0.625rem 1.25rem; /* px-5 py-2.5 */
+    border-radius: 0.3125rem; /* rounded-sm */
+    box-shadow: none/* Define your preferred shadow properties */;
+  }
+  
+  hr {
+    /* Define your preferred hr styles */
+  }
+  
+  /* Continue translating the remaining Tailwind classes into vanilla CSS */
+  
